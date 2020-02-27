@@ -11,9 +11,9 @@ public:
 
 	void handleInput(float dt);
 	Bullet* getBullet() {
-		return &bullet;
+		return bullet;
 	};
 
-private
-	Bullet bullet;
+private:
+	Bullet* bullet;
 };

@@ -2,6 +2,7 @@
 
 Player::Player()
 {
+	bullet = new Bullet();
 	setPosition(200, 200);
 	setSize(sf::Vector2f(100, 100));
 }
@@ -26,6 +27,6 @@ void Player::handleInput(float dt)
 		input->setKeyUp(sf::Keyboard::Enter);
 		int x = rand() % 600;
 		int y = rand() % 400;
-		bullet.setPosition((float)x, (float)y);
+		bullet->setPosition((float)x, (float)y);
 	}
 }

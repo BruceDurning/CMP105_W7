@@ -13,5 +13,6 @@ public:
 	void moveToPlayer(Player* player);
 
 private:
+	Player* player;
 	
 };

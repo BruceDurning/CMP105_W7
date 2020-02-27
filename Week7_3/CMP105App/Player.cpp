@@ -2,6 +2,7 @@
 
 Player::Player()
 {
+	bullet = new Bullet();
 	setPosition(200, 200);
 	setSize(sf::Vector2f(100, 100));
 }

@@ -2,6 +2,7 @@
 
 Companion::Companion()
 {
+	player = new Player();
 	setPosition(500, 500);
 	setSize(sf::Vector2f(10, 10));
 	setFillColor(sf::Color::Blue);
